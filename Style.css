@@ -1,0 +1,540 @@
+@font-face {
+    font-family:'Samim-FD' ;
+    src: url('fonts/Samim-FD.woff') format('woff');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Samim-FD' , sans-serif;
+    /* background-color:rgba(35, 106, 122, 0.78); */
+}
+
+.Container {
+    background: linear-gradient(rgba(13, 70, 83, 0.78), rgba(13, 70, 83, 0.78))  , url('img/bg-banner.jpg');
+     width: 100%;
+    height: 635px; 
+    background-position: center;  
+    background-position: 43% -10%;
+}
+
+/* Nav-Bar */
+
+.Nav-Bar ul li {
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 15px;
+    color: snow;
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 30px;
+    position: relative;
+    right: 130px;
+}
+
+.Nav-Bar{
+    position: fixed;
+    background:rgba(13, 70, 83, 0.78) ;
+    width: 100%;
+    height: 70px;
+    z-index: 1000;
+}
+
+.Logo{
+    position: relative;
+    float: left;
+    margin-left: 120px;
+    margin-top: 5px;
+    height: 60px;
+}
+
+/* Header */
+
+.Header{
+    text-align: center;
+    padding-top: 200px;
+}
+
+.Header h1{
+    font-size: 35px;
+    color: wheat;
+    padding: 15px 0 15px 0;
+}
+
+.Header p{
+    font-size: 15px;
+    color: wheat;
+    padding: 15px 0 15px 0;
+}
+
+.Header a{
+    text-decoration: none;
+    color: black;
+    background-color: rgba(13, 184, 182, 0.91);
+    padding: 10px 20px;
+    border-radius: 7px solid ;
+    font-size: 15px;
+    transition: all 0.3s ease;
+    /* position: relative; */
+}
+
+.Header p b{
+    color: yellow;
+}
+
+.Header a:hover{
+    color: snow;
+    background-color: #004454 ;
+    border: 1px solid #004454 ;
+    
+}
+
+/* section */
+
+.Container1{
+    display: grid;
+    grid-template-columns: repeat(3, 345px);
+    grid-template-rows: repeat(3, 233px);
+    
+}
+
+.Item{
+    position: relative;
+    right: 150px;
+    top: 280px;
+    padding: 5px 10px 10px 10px ;
+    font-size: 15px;
+    color: rgb(2, 0, 0);
+}
+
+/* .Item img{
+    /* padding-bottom: 20px; */
+
+.Item p {
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    /* font-weight: 600; */
+    line-height: 20px;
+}
+
+.Item h4 {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.Item3 h4{
+    font-size: 25px;
+    margin-top: -20px;
+    
+}
+
+hr{
+    height: 3px;
+    width: 60px;
+    background: #ffb737;
+    position: relative;
+    border: 0;
+    margin: 20px 0 20px 0;
+}
+
+/* Table */
+
+table , td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td{
+    color: white;
+    border: 0px solid #ededed;
+    border-top: 1px solid rgba(216, 216, 216, 0.6);
+    padding: 2px 88px 35px 2px;
+}
+
+.Table{
+    display: grid;
+    grid-template-columns: repeat(3,395px);
+    grid-template-rows: repeat(3,253px);
+    gap: 5px;
+    margin-top: 10px;
+    margin-right: -50px;
+    margin-left: 10px;
+    
+}
+
+.itemintable{
+    position: relative;
+    right: 100px;
+    background-color: #17638f;
+    padding: 0px 10px 10px 10px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.itemintable h4{
+    color: white;
+    text-align: right;
+    padding: 30px 0px 10px 10px;
+    font-size: 25px;
+}
+
+.itemintable a {
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    padding: 5px ;
+    position: absolute;
+    right: 15px;
+    bottom: 20px ;
+    font-size: 12px;
+    transition: all 0.3s ease;
+}
+
+.itemintable a:hover{
+    color: #58b69b;
+    border: 2px solid #58b69b ;
+}
+
+/* TextBox */
+
+.BoxText{
+    display: grid;
+    grid-template-columns: repeat(2,500px);
+    gap: 30px;
+    position: relative;
+    bottom: 370px;
+    margin-right: 178px;
+}
+
+.iteminboxtext{
+    color: #000000;
+    width: 90%;
+}
+
+.iteminboxtext li{
+    list-style-type: none;
+    float: left;
+    font-weight: 900;
+    width: 45px;
+    height: 45px;
+    padding: 8px;
+    background-color: #0cb8b6;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 35px;
+    left: -10px;
+}
+
+
+/* About Us  */
+
+.About{
+
+    position: relative;
+    bottom: 200px;
+   
+}
+
+.About h1{
+    position: relative;
+    margin-right: 148px;
+}
+
+.About hr{
+    position: relative;
+    margin-right: 150px ;
+}
+
+.Boximage{
+    display: flex;
+    justify-content: space-around;
+    width: 1000px;
+    position: relative;
+    right: 155px;
+}
+
+.Image{
+    border: 1px solid #999999;
+    width: 262px;
+    height: 410px;
+}
+
+.Image img{
+    width: 252px;
+    padding: 5px;
+}
+
+.Image li {
+    list-style-type: none;
+    display: inline;
+    padding-left: 10px;
+    position: relative;
+    right: 50px;
+}
+
+.Image h2 {
+    padding: 10px;
+}
+
+.Image p {
+    padding: 10px;
+}
+
+
+.Image .Ico {
+    width: 35px;
+    height: 35px;
+    /* paddin g: 10px; */
+}
+
+.Image .Ico:hover {
+    width: 40px;
+    height: 40px;
+
+}
+
+
+/* TestInonial */
+
+.Container2{
+    background-color: #eeeeeeee;
+}
+.Container2 h1, .Container2 hr{
+    margin-right: 200px;
+}
+
+.TestImonial{
+    display: grid;
+    grid-template-columns: repeat(3,0fr);
+    gap: 15px;
+    width: 1200px;
+}
+
+.Detalis{
+    width: 275px;
+    position: relative;
+    right: 200px;
+}
+
+.Detalis p{
+    color: #999999;
+}
+
+.TextinDetalis{
+    height: 130px;
+    background: #fff;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    box-shadow: 3px 3px 2px 0 rgba(0, 0, 0, 0.18);
+}
+
+.Triangle{
+    width: 0;
+    height: 0;
+    border-left: 0 solid transparent;
+    border-right: 20px solid transparent ;
+    border-top: 20px solid #fff;
+    position: relative;
+    bottom: 20px;
+    right: 215px;
+}
+
+.Person-Info img{
+    float: left;
+    width: 50px;
+    position: relative;
+    bottom: 50px;
+}
+
+/* AboutText */
+
+.AboutText{
+    background-color: rgb(41, 48, 46);
+}
+
+.AboutUs{
+    display: grid;
+    grid-template-columns: repeat(2.1fr);
+    width: 800px;
+    position: relative;
+    right: 300px;
+    padding: 30px;
+}
+
+.AboutUs h1{
+    font-size: 29px;
+    color: #fff;
+}
+
+.AboutUs p{
+    width: 630px;
+    color: #999999;
+}
+
+/* Contact  */
+
+.Container3 h2 , .Container3 hr{
+    margin-right: 100px;
+    margin-top: 30px;
+    font-size: 27px;
+}
+
+.Contact{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 900px;
+    position: relative;
+    right: 100px;
+    gap: 25px;
+}
+
+.Contact h3{
+    font-size: 25px;
+    padding: 10px 0px 35px 0px;
+}
+
+.ContactForm input {
+
+    width: 750px;
+    height: 40px ;
+    margin-bottom: 15px;
+    font-size: 17px;
+    padding: 5px;
+    transition: all 0.3s ease;
+}
+
+.ContactForm input:hover{
+    border: 1px solid rgba(13, 70, 83, 0.78);
+    box-shadow: #0cb8b6;
+    box-shadow: 3px 1px 15px 7px rgba(13, 70, 83, 0.78);
+}
+
+.ContactForm textarea{
+    resize: none;
+    margin-bottom: 25px;
+    font-size: 17px;
+    transition: all 0.3s ease;
+}
+
+.ContactForm textarea:hover{
+    border: 1px solid rgba(13, 70, 83, 0.78);
+    box-shadow: 3px 1px 15px 7px rgba(13, 70, 83, 0.78);
+}
+
+.ContactForm a{
+    background-color: #0cb8b6;
+    color: #fff;
+    padding: 9px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.ContactForm a:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgba(13, 70, 83, 0.78);
+}
+
+.ContactInfo p{
+    color: #0e0002;
+    font-size: 17px;
+    padding-bottom: 23px;
+}
+
+.ContactIcon ul{
+    margin-top: 80px;
+}
+
+.ContactIcon li {
+    list-style-type: none;
+    padding-bottom: 23px;
+    font-size: 14px;
+    color: #999999;
+}
+
+.ContactIcon li a img{
+    width: 30px;
+    height: 30px;
+    padding-bottom: -20px;
+    position: relative;
+    top: 10px;
+}
+
+.ContactIcon a img:hover{
+    width: 35px;
+    height: 35px;
+}
+
+/* Footer */
+
+.ContainerFooter{
+    background-color: #325C6A;
+    margin-top: 50px;
+}
+
+.Footer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 900px;
+    margin-right: 200px;
+}
+
+.Footer h4{
+    color: #fff;
+    font-size: 21px;
+    padding: 30px 0px 0px 10px;
+}
+
+.FooterIcon li{
+    list-style-type: none;
+    display: inline;
+    color: #fff;
+    background-color: #e74C3C;
+    padding: 15px;
+    position: relative;
+    top: 20px;
+}
+
+.FooterLink li{
+    list-style-type: none;
+    padding-bottom: 3px;
+}
+
+.FooterLink a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.FooterLink a:hover{
+    color: black;
+}
+
+.FooterAbout p{
+    width: 300px;
+    color: #fff;
+    font-size: 17px;
+}
+
+.Copy hr{
+    margin: 25px 0px 0px 25px;
+    width: 100%;
+    height: 1px;
+    background: #999999;
+}
+
+.Copy p {
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+}
+
+
+
+
+
